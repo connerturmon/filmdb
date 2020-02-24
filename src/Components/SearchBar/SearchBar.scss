@@ -2,7 +2,7 @@
 
 .searchbar-form {
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,12 +14,12 @@
     font-size: 1rem;
     padding: 0 1.5rem;
     background-color: $greyBackground;
-    border-radius: $borderRadius;
+    border-radius: $formRadius;
 }
 
 .searchbar-button {
     flex: 1;
     height: 2rem;
     background: none;
-    border-radius: $borderRadius;
+    border-radius: $formRadius;
 }

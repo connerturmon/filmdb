@@ -1,0 +1,26 @@
+@import '../../common.scss';
+
+.cast-block {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.cast-block__profile-pic {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    clip-path: circle(75px at center);
+}
+
+.cast-block__profile-pic__img {
+    position: relative;
+    width: 150px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cast-block__details {
+    margin-left: 1rem;
+}

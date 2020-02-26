@@ -1,7 +1,20 @@
 /* Colors */
 $greyBackground: rgb(244,245,246);
+$black: rgb(12,12,12);
 $blue: #147efb;
+$green: rgb(52,199,89);
+$yellow: rgb(255,204,0);
+$red: rgb(255,59,48);
 
 /* Constants */
 $formRadius: 10px;
 $cardRadius: 6px;
+
+/* Classes */
+.blue-text {
+    color: $blue;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: $black;
+}
